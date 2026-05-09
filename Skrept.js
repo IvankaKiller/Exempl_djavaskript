@@ -1,18 +1,16 @@
-var privet = 10
+var privet = 9
 
-function potom(x){
-	x = x * 2
-	return x
+if(privet < 10){
+	console.log("crabotalo")
+}else{
+	console.log("nesrabotalo")
 }
 
-privet = potom(potom(privet))
+var poka = privet < 8 || privet > 10
 
 
 
 
 
 
-
-
-
-console.log(privet)
+console.log(poka)
