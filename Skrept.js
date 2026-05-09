@@ -1,11 +1,11 @@
-var privet
+var privet = 10
 
-privet = 10
+function potom(x){
+	x = x * 2
+	return x
+}
 
-privet = (privet + 2) * 2
-
-
-
+privet = potom(potom(privet))
 
 
 
